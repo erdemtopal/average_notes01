@@ -12,9 +12,9 @@ class KrediDropDownWidget extends StatefulWidget {
 }
 
 class _KrediDropDownWidgetState extends State<KrediDropDownWidget> {
+  double secilenKrediDegeri = 1.0;
   @override
   Widget build(BuildContext context) {
-    double secilenKrediDegeri = 1.0;
     return Column(
       children: [
         Padding(
